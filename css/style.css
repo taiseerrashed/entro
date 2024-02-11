@@ -280,6 +280,8 @@ h2{
     font-size: 26px;
     font-weight: 500;
     cursor: pointer;
+    width: 100%;
+    text-align: center;
 }
 .gallery-images .gallery-box .box-img:hover .box-hover{
     opacity: 1;
@@ -567,7 +569,7 @@ h2{
         gap: 0;
     }
     .gallery-images .gallery-box .box-img{
-        height: 300px;
+        height: 250px;
     }
     .gallery .gallery-content .gallery-images .gallery-box {
         grid-template-columns: repeat(auto-fill, minmax(100%, auto)); 
